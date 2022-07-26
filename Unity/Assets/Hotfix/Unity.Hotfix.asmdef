@@ -4,7 +4,11 @@
     "references": [
         "Unity.Model",
         "Unity.ThirdParty",
-        "Unity.Mono"
+        "Unity.Mono",
+        "Unity.Core",
+        "UniTask",
+        "YooAsset",
+        "AstarPathfindingProject"
     ],
     "includePlatforms": [
         "Editor"
@@ -12,7 +16,11 @@
     "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": true,
-    "precompiledReferences": [],
+    "precompiledReferences": [
+        "Sirenix.OdinInspector.Attributes.dll",
+        "Sirenix.Serialization.dll",
+        "Sirenix.Serialization.Config.dll"
+    ],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],

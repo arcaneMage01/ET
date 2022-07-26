@@ -5,6 +5,7 @@
 // --------------------------
 
 using Cysharp.Threading.Tasks;
+using ET.Client;
 using UnityEngine;
 
 namespace ET
@@ -35,6 +36,20 @@ namespace ET
             
             self.PathFindInstance.data.DeserializeGraphs(textAsset.bytes);
             Log.Info($"加载RecastNav数据图：{graphName}完成");
+        }
+        
+        public static async UniTask DoAwake(this PathFindComponent self)
+        {
+            GameObject prefab = await self.DomainScene().GetComponent<YooAssetComponent>()
+                .LoadAssetAsync<GameObject>("PathFind_PathFindCore");
+
+            self.PathFindInstance = UnityEngine.Object.Instantiate(prefab, GlobalComponent.Instance.PathFind, true).GetComponent<AstarPath>();
+        }
+        
+        public static void DoDestroy(this PathFindComponent self)
+        {
+            UnityEngine.Object.Destroy(self.PathFindInstance.gameObject);
+            self.PathFindInstance = null;
         }
     }
 }

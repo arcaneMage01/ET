@@ -7,6 +7,7 @@ namespace ET.Client
     {
         protected override async UniTask Run(Scene scene, EventType.AfterCreateClientScene args)
         {
+            scene.AddComponent<YooAssetComponent>();
             scene.AddComponent<FUIPackageManagerComponent>();
             scene.AddComponent<FUIManagerComponent>();
 

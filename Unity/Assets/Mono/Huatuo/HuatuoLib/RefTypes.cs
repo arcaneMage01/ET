@@ -26,6 +26,8 @@ public class RefTypes : MonoBehaviour
         Instantiate<GameObject>(null, new Vector3(), new Quaternion(), null);
         this.gameObject.AddComponent<RefTypes>();
         gameObject.AddComponent(typeof(RefTypes));
+        
+        using System.Net.Http.HttpClient httpClient = new System.Net.Http.HttpClient();
     }
 
     void RefNullable()

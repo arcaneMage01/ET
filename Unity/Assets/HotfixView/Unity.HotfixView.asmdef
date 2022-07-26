@@ -10,7 +10,10 @@
         "YooAsset",
         "Unity.Core",
         "Animancer",
-        "StatusIndiactors"
+        "StatusIndiactors",
+        "UniTask",
+        "FairyGUI.Runtime",
+        "AstarPathfindingProject"
     ],
     "includePlatforms": [
         "Editor"

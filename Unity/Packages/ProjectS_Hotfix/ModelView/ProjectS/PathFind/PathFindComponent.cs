@@ -17,19 +17,5 @@ namespace ET
     public class PathFindComponent : Entity, IAwake, IDestroy
     {
         public AstarPath PathFindInstance;
-        
-        public async UniTask DoAwake()
-        {
-            GameObject prefab = await this.DomainScene().GetComponent<YooAssetComponent>()
-                .LoadAssetAsync<GameObject>("PathFind_PathFindCore");
-
-            PathFindInstance = UnityEngine.Object.Instantiate(prefab, GlobalComponent.Instance.PathFind, true).GetComponent<AstarPath>();
-        }
-        
-        public void DoDestroy()
-        {
-            UnityEngine.Object.Destroy(PathFindInstance.gameObject);
-            PathFindInstance = null;
-        }
     }
 }

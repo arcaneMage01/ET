@@ -8,7 +8,10 @@
         "YooAsset",
         "FairyGUI.Runtime",
         "Animancer",
-        "Unity.Core"
+        "Unity.Core",
+        "UniTask",
+        "StatusIndiactors",
+        "AstarPathfindingProject"
     ],
     "includePlatforms": [
         "Editor"

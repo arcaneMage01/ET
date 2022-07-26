@@ -87,8 +87,8 @@ namespace ET
                 ? Angle.GetBlackBoardValue<float>(this.BelongtoRuntimeTree.GetBlackboard())
                 : 0;
 
-            UnitFactory.CreateColliderArgs createColliderArgs =
-                ReferencePool.Acquire<UnitFactory.CreateColliderArgs>().Init(this.PrefabABPath, this.NP_TreeConfigId,
+            UnitDefine.CreateColliderArgs createColliderArgs =
+                ReferencePool.Acquire<UnitDefine.CreateColliderArgs>().Init(this.PrefabABPath, this.NP_TreeConfigId,
                     this.BelongToUnit, angle, this.FollowUnit,
                     this.TargetCollisionRoleCast, this.TargetCollisionRoleCamp, this.TargetCollisionRoleTag,
                     this.Offset, this.TargetPos, OnTriggerEnter, OnTriggerStay, OnTriggerExit);

@@ -2,6 +2,11 @@
 
 ET 7.0 + FGUI + luban + huatuo + YooAsset + NKGMoba + UniTask，并提供常用的编辑器工具。
 
+# 用前须知
+
+ - 此项目为本人出于个人喜好和开发需求进行的魔改，并不保证普适性。
+ - 目前master为单机版本，服务端未作适配，所以服务端是跑不起来的。
+
 # 环境 && 版本
 
  - Unity：2020.3.33
@@ -13,8 +18,9 @@ ET 7.0 + FGUI + luban + huatuo + YooAsset + NKGMoba + UniTask，并提供常用�
    - /Unity/Assets/Plugins/AstarPathfindingProject
    - /Unity/Assets/Plugins/Animancer
    - /Unity/Assets/Plugins/MonKey Commander
-   - /Unity/Assets/Plugins/Werewolf
    - /Unity/Assets/Plugins/ShaderControl
+   - 最后对ProjectS_Hotfix.asmdef做如下引用即可 ![image](https://user-images.githubusercontent.com/35335061/180807422-0ca3a32b-fdf3-4866-83d5-1ff4a569fee8.png)
+
 
 # 项目截图（IL2CPP PC真机）
 ![QQ截图20220721230643](https://user-images.githubusercontent.com/35335061/180248732-70230143-7e42-4fc3-bcfd-3d93a8cef5ee.png)

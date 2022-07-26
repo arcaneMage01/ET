@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using Cysharp.Threading.Tasks;
 using ET.EventType;
-using MongoDB.Bson.Serialization;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace ET
@@ -77,6 +75,32 @@ namespace ET
 
             Log.Error($"请求的行为树id不存在，id为{id}");
             return null;
+        }
+        
+        public static async UniTask LoadSkillCanvas(this NP_TreeDataRepositoryComponent self)
+        {
+            YooAssetComponent yooAssetComponent = self.DomainScene().GetComponent<YooAssetComponent>();
+            
+            foreach (var skillCanvasConfig in YooAssetProxy.GetAssetPathsByTag("SkillConfig"))
+            {
+                TextAsset textAsset =
+                    await yooAssetComponent.LoadAssetAsync<TextAsset>(skillCanvasConfig);
+            
+                if (textAsset.bytes.Length == 0) Log.Info("没有读取到文件");
+                try
+                {
+                    NP_DataSupportor MnNpDataSupportor = SerializationUtility.DeserializeValue<NP_DataSupportor>(textAsset.bytes, DataFormat.Binary);
+            
+                    Log.Info($"反序列化行为树:{skillCanvasConfig}完成");
+            
+                    self.NpRuntimeTreesDatas.Add(MnNpDataSupportor.NpDataSupportorBase.NPBehaveTreeDataId, MnNpDataSupportor);
+                }
+                catch (Exception e)
+                {
+                    Log.Error(e);
+                    throw;
+                }
+            }
         }
     }
 }

@@ -8,8 +8,7 @@ namespace ET.Client
             clientScene.AddComponent<ClientSceneFlagComponent>();
             clientScene.AddComponent<CurrentScenesComponent>();
             clientScene.AddComponent<PlayerComponent>();
-            clientScene.AddComponent<YooAssetComponent>();
-            
+
             Game.EventSystem.Publish(clientScene, new EventType.AfterCreateClientScene());
             return clientScene;
         }

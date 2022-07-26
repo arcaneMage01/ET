@@ -745,7 +745,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     0: NETSTANDARD2_0;UNITY
-    1: UNITY;ODIN_INSPECTOR;ODIN_INSPECTOR_3;NKGEditorOnly;FAIRYGUI_TMPRO
+    1: UNITY;ODIN_INSPECTOR;ODIN_INSPECTOR_3;FAIRYGUI_TMPRO;NKGEditorOnly
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1

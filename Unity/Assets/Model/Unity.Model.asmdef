@@ -4,7 +4,10 @@
     "references": [
         "Unity.ThirdParty",
         "Unity.Mono",
-        "Unity.Core"
+        "Unity.Core",
+        "UniTask",
+        "AstarPathfindingProject",
+        "YooAsset"
     ],
     "includePlatforms": [
         "Editor"

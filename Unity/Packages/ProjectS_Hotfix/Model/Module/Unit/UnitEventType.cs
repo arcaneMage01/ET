@@ -12,5 +12,11 @@ namespace ET
         public struct ChangeRotation
         {
         }
+
+        public struct CreateColliderGameObject
+        {
+            public YooAssetProxy.YooAssetResType Type;
+            public UnitDefine.CreateColliderArgs CreateColliderArgs;
+        }
     }
 }
