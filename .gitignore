@@ -42,11 +42,12 @@ _ReSharper.CSharp/
 !FGUIProject/
 /Unity/Logs
 
-/Unity/Assets/Plugins/Sirenix
-/Unity/Assets/Plugins/AstarPathfindingProject
-/Unity/Assets/Plugins/Animancer
-/Unity/Assets/Plugins/MonKey Commander
-/Unity/Assets/Plugins/ShaderControl
+# /Unity/Assets/Plugins/Sirenix
+# /Unity/Assets/Plugins/AstarPathfindingProject
+# /Unity/Assets/Plugins/Animancer
+# /Unity/Assets/Plugins/MonKey Commander
+# /Unity/Assets/Plugins/Werewolf
+# /Unity/Assets/Plugins/ShaderControl
 
 /Unity/Sandbox
 /Unity/Bundles/

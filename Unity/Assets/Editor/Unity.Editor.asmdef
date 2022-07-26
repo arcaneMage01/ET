@@ -9,7 +9,8 @@
         "Unity.EditorCoroutines.Editor",
         "ProjectS_Hotfix",
         "YooAsset.Editor",
-        "UniTask"
+        "UniTask",
+        "MonKey"
     ],
     "includePlatforms": [
         "Editor"
