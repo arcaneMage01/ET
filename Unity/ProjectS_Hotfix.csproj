@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>ET</RootNamespace>
+    <ProjectGuid>{66be2ee0-6ccf-a09b-506c-a57a19ded19f}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>ProjectS_Hotfix</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\ProjectS_Hotfix\</OutputPath>
+    <DefineConstants>UNITY_2020_3_36;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY;ODIN_INSPECTOR;ODIN_INSPECTOR_3;FAIRYGUI_TMPRO;NKGEditorOnly;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Client/Entry.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/ValueTypeDecideByCanvasData/VTD_EventId.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_UInt.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_WaitAChangeableTimeAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Router/RouterCheckComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/SkillConfig/SkillCanvasConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_LogAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/CastDamageComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/Tables.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/Physic/B2S_ColliderComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/HeadBar/FUI_HeadBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Login/LoginFinish_RemoveLoginUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Numeric/NumericWatcherComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ChangeMaterialBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Composite/RandomSelector.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/BlackboardMultipleConditions.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Recast/NavmeshComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Unit/UnitEventType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Login/FUI_Login.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/StackFSMComponentSystem_View.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Helper/PositionHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ChangePropertyBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Repeater.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Helper/NP_BBValueHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/PathFind/PathFindComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/ResourceModule/YooAssetComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_Long.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Succeeder.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/NPBehave/ClientSpecial/NP_PlayParticalAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NPBlackBoardDataManager/NP_BlackBoardDataManager.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/HeadBar/FUI_Bar_MP.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/UnitTransformComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Client/Config/ConfigLoader.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Loading/FinishLoad_HideLoadingUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_CancelAttackAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/SkillCanvasManagerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Router/HttpClientHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffWorkTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/RefreshTargetBuffTimeBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/UnityMath/Mathf.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Unit/UnitDefine.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Composite/NP_SelectorNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/CDComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NP_RootNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/CoroutineLock/CoroutineLockType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/ActorLocation/IActorLocationMessage.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/ABuffSystemBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/BBValue/NP_ChangeTargetSkillBBValueAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_MoveToRandomPosAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Move/MoveEventType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Task/NP_WaitUntilStoppedData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Physic/Component/B2S_RoleCastComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/Component/Login/FUI_LoginComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Config/IMerge.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_SendCDInfoToClientAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/ReferencePool/IReference.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Task/Wait.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Loading/PackageLoading.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Config/ConfigComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_Float.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/SkillDesNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/OutLineComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/UpdateModule/FixedUpdate.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NP_DataSupportorBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Loading/FUI_LoadingComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/ActorLocation/ActorResponse.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/ListenBuffCallBackBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/PathFind/PathFindComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/FUIWindowComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Container.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Scene/ClientSceneFlagComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Move/MoveStop_LogicHandler.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Router/RouterHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/SkillCostTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/MessageAttribute.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Ping/PingComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Share/EventType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Physic/Component/B2S_ColliderComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/States/IFSMState.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Scene/CurrentScenesComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ListenBuffEvents/ListenBuffEvent_Normal.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Share/ConstValue.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Client/Camera/CameraComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_BuffProBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/AnimationComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/LSF_Component.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Blackboard.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/SendBuffInfoToClientBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Scene/SceneChangeStart_AddComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/SkillSystemEvent/ISkillSystemEvent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/BlackboardCondition.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_CheckSkillCanBeCastAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Component/NP_SyncComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/Unit/UnitComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Move/MoveComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/UnitConfig/TbUnitBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/OperateDataDefines.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/ReplaceAnimBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Exception.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Numeric/NumericChangeEvent_NotifyWatcher.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/BuffSystemExtension.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/DataModifiers/ADataModifier.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Client/Unit/GameObjectComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Message/NetKcpComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Scene/CurrentScenesComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/GameObjectComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Config/ConfigComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/Events/View_DebugVisualBox2D.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/CommonAttackComponent_Logic.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Scene/AfterCreateCurrentScene_AddComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Condition.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/Log/Log.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/FlashDamageBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/BindStateBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Message/SessionAcceptTimeoutComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Move/MoveComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Session/SessionStreamDispatcherClientOuter.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Component/NP_TreeDataRepositoryComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Config/ConfigAttribute.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/NP_RuntimeTreeFactory.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/BuffManagerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Client/Global/GlobalComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/BuffTimerAndOverlayHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Timer/TimerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Router/RouterAddressComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/CoroutineLock/CoroutineLockQueue.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NP_BlackBoardRelationData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/IMHandler.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_CheckUnitKilledBySpecialMethodAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Decorator/NP_ServiceNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Numeric/NumericWatcher_Hp_ShowUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Composite/RandomSequence.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Unit/GameObjectComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/PackageBattleMain.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/PlayerHeroControllerSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/SessionAcceptTimeoutComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Client/Unit/ChangePosition_SyncGameObjectPos.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Router/RouterAddressComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Message/SessionIdleCheckerComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Unit/UnitComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NP_NodeDataBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/CommonAttackComponent_View.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/HeadBar/FUI_Bar_HP.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/GComponentHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/States/AFsmStateBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/BattleEventType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Unit/PlayerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/FlashDamageBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_Battle_Main.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/GObjectHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Scene/ClientSceneManagerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/SkillSystem/BuffSystems/PlayEffectBuffSystemEvent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ListenBuffEvents/ListenBuffEvent_CheckOverlay.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/MouseTargetSelectorComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Shared/FUI_Pro_Common.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_GoldenToShopBtn.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/SkillReleaseMode.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffDamageTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/ComponentSystems/SkillCanvasManagerComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Shared/PackageShared.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/OutLineComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/StateTypeForAnimExtension.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Recast/NavmeshComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/VTDUtilities.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Numeric/NumericType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/SkillSystem/BuffSystems/ReplaceAnimBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/UnitConfig/TbUnitAttribute.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Numeric/NumericComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Login/PackageLogin.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Task/WaitUntilStopped.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Move/MoveHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/Events/View_ChangeSpriteProperty_ChangeUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/NetKcpComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/MessageSerializeHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/Events/View_CommonAttack.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/TurnComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/Physic/B2S_ColliderComponent_System.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffBaseDataEffectTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/SceneConfig/TbSceneBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/ResponseTypeAttribute.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/OpcodeTypeComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/ComponentSystems/ReceiveDamageComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/BlackboardQuery.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/EffectComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Composite/Selector.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Loading/FUI_Loading.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/NPBehave/ClientSpecial/NP_PlaySoundAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/SyncContext.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Task/NP_ActionNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/LuBanSample/TbLuBanSample.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_RemoveBuffAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NodeType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Session/SessionComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/ComponentSystems/FUIPackageManagerSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/SceneConfig/SceneBaseConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_Bool.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NP_ClassForStoreAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/GameObjectPoolComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/SkillIndicatorComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/ComponentSystems/NP_SyncComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/NPBehave/ClientSpecial/NP_HideSkillIndicatorAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Root.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/ComponentSystems/LSF_ComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/Component/Loading/FUI_LoadingComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Shared/FUI_Com_ProWithTip.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/DataModifiers/ConstantModifier.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_AddBuffToSpecifiedUnitAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_MacroAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_CreateColliderDataAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/UserInputComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Message/OuterMessage.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/FUIPackageManagerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Move/StopMoveFromFSM.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_SkillSmallProBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_WaitCDAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/MessageHandlerAttribute.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Client/Scene/ClientSceneFlagComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/CoroutineLock/CoroutineLockTimer.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ListenBuffCallBackBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Share/CallbackType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Service.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/UnitConfig/UnitResConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/PathFind/NavAgentComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/NPBehave/ClientSpecial/NP_PlayAnimationAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/RefreshTargetBuffTimeBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_Vector3.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Login/AppStartInitFinish_CreateLoginUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/MapClickCompoentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/HeadBar/PackageHeadBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/TreatmentBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Move/MoveComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/OperatesComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Task/Action.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ReplaceAnimBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/SkillBuffNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/ObservingDecorator.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/SkillTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_TriggerAttackCDAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffSystemTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Timer/ATimer.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_RunCommonAttackEventAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/PlayEffectBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/CoroutineLock/CoroutineLockQueueType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/SustainDamageBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/States/IdleState.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Task/NP_WaitNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_OtherBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/ResourceModule/YooAssetComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Message/NetThreadComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_HpProcessBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/UpdateModule/GameTime.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Numeric/NumericComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Component/NP_RuntimeTree.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_Btn_GMItem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Session/SessionComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Decorator/NP_RepeaterNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/UnitTransformComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/ComponentSystems/NP_RuntimeTreeSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Assert.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffBaseType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/PathFind/Helper/PathModifyHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/DataModifiers/DataModifierComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Composite/NP_SequenceNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/UnitConfig/UnitAttributeConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/UnitConfig/UnitBaseConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_RegisteReplaceAttackAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/FrameAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Client/Opera/OperaComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Unit/UnitHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/OpcodeHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValueBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Decorator/NP_BlackboardMultipleConditionsNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Client/Camera/CameraComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BindStateBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Composite/Parallel.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/OpcodeRangeDefine.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Client/Unit/AfterUnitCreate_CreateUnitView.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/GameObjectPoolComponent_System.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/Session.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/ComponentSystems/BattleEventSystemUtilities.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Message/MessageDispatcherComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/ReplaceAttackBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Ping/PingComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Unit/Unit.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Module/Recast/PathfindingComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_String.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Login/FUI_LoginComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/CoroutineLock/CoroutineLockComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Scene/SceneFactory.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/EffectComponent_System.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/ReferencePool/ReferencePool.ReferenceCollection.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/AMHandler.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_AddBuffAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/BuffDataCalculateHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/LSF_TimerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/LuBanSample/LuBanSampleConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/StateTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/INP_BBValue.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_List_Long.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/UpdateModule/TimerTicker.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/ReceiveDamageComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/MouseTargetSelectorComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffAdditionTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Task/Task.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/CoroutineLock/CoroutineLock.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/UnitConfig/TbUnitRes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/PathFind/NavAgentComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Composite/NP_ParallelNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_DestroySelfAndRelativeCollidersAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/item/EQuality.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/PlayerHeroControllerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_ChangeUnitPropertyAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Config/IConfig.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/NP_DataSupportor.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Composite/Sequence.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_ProgressBar1.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Composite/Composite.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/PlayEffectBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/BuffFactory.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Random.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/States/NavigateState.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/SustainDamageBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Recast/PathfindingComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/SessionIdleCheckerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Client/Unit/ChangeRotation_SyncGameObjectRotation.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Move/MoveStart_PlayRunAnimationByMoveSpeed.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/ChangeRenderAssetBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/MessageDispatcherComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Component/NP_RuntimeTreeManager.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Numeric/INumericWatcher.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/test/AccessFlag.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/NPBehave/ClientSpecial/NP_StopSoundAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Login/FUI_LoginUtilities.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/ISessionStreamDispatcher.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Login/EnterMapHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/BBValue/NP_ChangeBlackValueAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/ANP_BBValue.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/BBValue/NP_CheckBBValueAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_SetUnitTransformAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/IMessage.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/ComponentSystems/CommonAttackComponent_LogicSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/States/CommonAttackState.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/IBuffSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Message/OuterOpcode.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/FGUI/Loading/BeginLoad_ShowLoadingUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_SetCDInfoAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/States/CustomState.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Inverter.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Scene/AfterCreateClientScene_AddComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/ChangePropertyBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Component/BattleEventSystemComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/AnimationCore/PlayAnimInfo.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/TreatmentBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/TheDataContainsAction/NP_ResetAttackCDAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Router/RouterCheckComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/SkillSystem/BuffSystem/Core/BuffState.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/NPBehave/ComponentSystems/NP_TreeDataRepositoryComponentSystems.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/NPBehave/ClientSpecial/NP_ShowSkillIndicatorAction.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Scene/AfterCreateSingleGameScene_AddComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Decorator.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Unit/UnitFactory.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/BBValues/NP_BBValue_Int.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Unit/UnitType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Actor/IActorMessage.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Login/FUI_Btn_ContinueGame.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/SkillSystem/BuffSystems/ChangeMaterialBuffSystemEvent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/HeroHeadBarComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/Unit/UnitSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Numeric/NumericWatcherAttribute.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Node.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Stops.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/ReferencePool/ReferencePool.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Component/NP_TreeIds.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/ValueTypeDecideByCanvasData/VTD_Id.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/SkillBuffDataBase/BuffDataBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/Battle/Component/MapClickCompoent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/Login/FUI_Btn_StartGame.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Fsm/StackFsmComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_SkillProBar.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Scene/ClientSceneManagerComponentSystem.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/Events/View_StopMove.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Client/Global/GlobalComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/FUIStackComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/FUI.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/ProjectS/FGUI/AutoGeneratedCode/BattleMain/FUI_Btn_GMController_Disable.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/ProjectS/Battle/ComponentSystems/CommonAttackComponentSystem_View.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/ErrorCode.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/Module/Resource/GameObjectHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/ReferencePool/ReferencePoolInfo.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/FUIManagerComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/Component/DeadComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Clock.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/NodeDatas/Decorator/NP_BlackboardConditionNodeData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/HotfixView/AppStart_Init.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/Unit/AttributeType.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/ValueTypeDecideByCanvasData/VTD_BuffInfo.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Observer.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/DataModifiers/PercentageModifier.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Module/Message/NetThreadComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Operator.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/item/ItemExchange.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/ChangeMaterialBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/ModelView/Module/FGUI/FUIInitComponent.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/ProjectS/Battle/Unit/EnterMapFinish_CreateUnit.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/BuffEnums/BuffTargetTypes.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/Others/SkillNodeDataBase.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/NPBehave/Core/NPBehave/Decorator/Failer.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Hotfix/Client/Login/LoginHelper.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/ProjectS/Battle/SkillSystem/BuffData/ReplaceAttackBuffData.cs" />
+     <Compile Include="Packages/ProjectS_Hotfix/Model/Generate/Config/Bytes/SkillConfig/TbSkillCanvas.cs" />
+     <None Include="Packages/ProjectS_Hotfix/ProjectS_Hotfix.asmdef" />
+     <None Include="Packages/ProjectS_Hotfix/package.json" />
+     <Reference Include="UnityEngine">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.Graphs">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.OSXStandalone.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Attributes">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+     </Reference>
+     <Reference Include="nunit.framework">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.CSharp">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Annotations">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http.Rtc">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Duplex">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Http">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.NetTcp">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Security">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TestRunner">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TestRunner">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Mono.csproj">
+      <Project>{5910fa29-5797-199c-985b-fc9fc473328e}</Project>
+      <Name>Unity.Mono</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ThirdParty.csproj">
+      <Project>{d2ad5be1-263a-9a30-ab0f-dc5b08044350}</Project>
+      <Name>Unity.ThirdParty</Name>
+    </ProjectReference>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{969b6393-7326-9cc5-ac5f-d252d24b1a34}</Project>
+      <Name>YooAsset</Name>
+    </ProjectReference>
+    <ProjectReference Include="FairyGUI.Runtime.csproj">
+      <Project>{b702acff-57fc-18d8-c1a4-f9d7a8336aaf}</Project>
+      <Name>FairyGUI.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Core.csproj">
+      <Project>{770e9beb-b313-3761-faa2-76daf4b34ada}</Project>
+      <Name>Unity.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.csproj">
+      <Project>{159e65f6-d363-1a6d-ec57-6db30da1b98f}</Project>
+      <Name>Animancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="StatusIndiactors.csproj">
+      <Project>{4f122565-a36b-ff5b-2ac8-b05afd48dd60}</Project>
+      <Name>StatusIndiactors</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{bab5d22a-8583-2c7d-88ed-c468ec0e7027}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{fa5be71f-d656-496b-4dcc-375d8109000d}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

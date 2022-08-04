@@ -11,12 +11,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{24c541d1-5315-9346-8ebf-8c856c989ddb}</ProjectGuid>
+    <RootNamespace>ET</RootNamespace>
+    <ProjectGuid>{c4d634f5-6833-2b03-289c-a943cc171719}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>FGUI.Editor</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,12 +25,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\FGUI.Editor\</OutputPath>
-    <DefineConstants>UNITY_2020_3_36;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY;ODIN_INSPECTOR;ODIN_INSPECTOR_3;NKGEditorOnly;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp-Editor-firstpass\</OutputPath>
+    <DefineConstants>UNITY_2020_3_36;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY;ODIN_INSPECTOR;ODIN_INSPECTOR_3;FAIRYGUI_TMPRO;NKGEditorOnly;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -41,15 +41,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/UIContentScalerEditor.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/EditorToolSet.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/UIPainterEditor.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/UIPanelEditor.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/UIConfigEditor.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/DisplayObjectEditor.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/PackagesWindow.cs" />
-     <Compile Include="Packages/FairyGUI/Scripts/Editor/StageCameraEditor.cs" />
-     <None Include="Packages/FairyGUI/Scripts/Editor/FairyGUI.Editor.asmdef" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.GUI.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/ShaderDebugBuildProcessor.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.Shaders.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/StringPerm.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Build.GUI.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/ShadersBuildInfo.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.Shaders.Graph.v1.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Build.Shaders.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Advanced.GUI.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCMenu.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.Shaders.NonGraph.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCShader.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.Materials.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.Shaders.Graph.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCWindow.Project.Shaders.Graph.v2.cs" />
+     <Compile Include="Assets/Plugins/ShaderControl/Editor/SCMaterial.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -278,14 +286,41 @@
      <Reference Include="UnityEditor.OSXStandalone.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Attributes">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
      <Reference Include="CommandLine">
      <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/CommandLine.dll</HintPath>
+     </Reference>
+     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+     </Reference>
+     <Reference Include="Pathfinding.ClipperLib">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="ICSharpCode.NRefactory">
      <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/PackageCache/com.unity.render-pipelines.core@10.9.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
      </Reference>
-     <Reference Include="ICSharpCode.SharpZipLib">
-     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     <Reference Include="Pathfinding.Poly2Tri">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -638,23 +673,258 @@
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <Reference Include="UnityEditor.TestRunner">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
      <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.TestRunner">
-     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+     <Reference Include="Unity.AssetGraph.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.AssetGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CacheServer">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AssetGraph">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.AssetGraph.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Sysroot.Linux_x86_64">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Runtime">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.SysrootPackage.Editor">
+     <HintPath>/Users/mac/Documents/proj/unity/ET-plus/Unity/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{09b46226-3263-561e-d797-c9025c53bdd6}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="YooAsset.Editor.csproj">
+      <Project>{e17e49b1-467b-9f35-a59e-d9aea156de57}</Project>
+      <Name>YooAsset.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{346bfd4e-0076-82ff-20d5-7a2add949d31}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{e0456168-1ba5-5e68-ef99-a1034c8b63ab}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
+      <Project>{56df1de4-7636-2075-3b3d-021f8dba6bfa}</Project>
+      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{1a015f2f-ef4c-fc52-3777-906da4065b5e}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{f33a4f4e-838d-b35c-ceb7-3f8a7ab9a9af}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.FSM.csproj">
+      <Project>{774b51b6-b901-b97e-d593-35721140fea6}</Project>
+      <Name>Animancer.FSM</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.HotfixView.csproj">
+      <Project>{de4513d3-889b-5c52-8e9c-744c99ae7509}</Project>
+      <Name>Unity.HotfixView</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{ae6df5c0-a92f-6e81-5f7e-f196d8ffe5f0}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.alelievr.NodeGraphProcessor.Editor.csproj">
+      <Project>{27a20443-6d8f-cd44-e004-04d9c7340939}</Project>
+      <Name>com.alelievr.NodeGraphProcessor.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="StatusIndiactors.csproj">
+      <Project>{4f122565-a36b-ff5b-2ac8-b05afd48dd60}</Project>
+      <Name>StatusIndiactors</Name>
+    </ProjectReference>
+    <ProjectReference Include="NodeGraphProcessor.Examples.csproj">
+      <Project>{4fa9d2d7-792f-abe3-350a-36ce3f256551}</Project>
+      <Name>NodeGraphProcessor.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.csproj">
+      <Project>{159e65f6-d363-1a6d-ec57-6db30da1b98f}</Project>
+      <Name>Animancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{6befdd8c-23a1-33d8-aac6-996fc9568b1e}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{969b6393-7326-9cc5-ac5f-d252d24b1a34}</Project>
+      <Name>YooAsset</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{b8858eb3-3501-d713-3eb5-0c32e8dd6d32}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ThirdParty.csproj">
+      <Project>{d2ad5be1-263a-9a30-ab0f-dc5b08044350}</Project>
+      <Name>Unity.ThirdParty</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.Examples.csproj">
+      <Project>{3887fc76-16b0-e25b-d964-8c25cc3023a6}</Project>
+      <Name>Animancer.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="LubanGenerateConfig.Editor.csproj">
+      <Project>{46f9d693-64b0-a181-601c-dcc984a8b8da}</Project>
+      <Name>LubanGenerateConfig.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FGUI.Editor.csproj">
+      <Project>{24c541d1-5315-9346-8ebf-8c856c989ddb}</Project>
+      <Name>FGUI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.YooAsset.csproj">
+      <Project>{df09b6c7-c3c7-7ad2-7064-e8e26157faa1}</Project>
+      <Name>UniTask.YooAsset</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{ce75414b-41d6-dd43-490f-e90c57bacb93}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{8e489ad3-ce7f-1f86-b4dd-48897ca61438}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Editor.csproj">
+      <Project>{041131cd-3018-19b1-81b6-5dbee2467ffb}</Project>
+      <Name>Unity.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Hotfix.csproj">
+      <Project>{52f66610-896a-c4d1-9881-1a19df7ab80e}</Project>
+      <Name>Unity.Hotfix</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.alelievr.NodeGraphProcessor.Runtime.csproj">
+      <Project>{2c5a86f7-1354-6e9b-6019-90c0890a7359}</Project>
+      <Name>com.alelievr.NodeGraphProcessor.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="ProjectS_Hotfix.csproj">
+      <Project>{66be2ee0-6ccf-a09b-506c-a57a19ded19f}</Project>
+      <Name>ProjectS_Hotfix</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Model.csproj">
+      <Project>{9498bfb4-d9f5-c441-13e3-3f26f7700e29}</Project>
+      <Name>Unity.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="FairyGUI.Runtime.csproj">
       <Project>{b702acff-57fc-18d8-c1a4-f9d7a8336aaf}</Project>
       <Name>FairyGUI.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mono.csproj">
+      <Project>{5910fa29-5797-199c-985b-fc9fc473328e}</Project>
+      <Name>Unity.Mono</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{fa5be71f-d656-496b-4dcc-375d8109000d}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ModelView.csproj">
+      <Project>{c109842f-01da-64d4-dbf2-00c6449e459e}</Project>
+      <Name>Unity.ModelView</Name>
+    </ProjectReference>
+    <ProjectReference Include="Luban.Editor.csproj">
+      <Project>{fca3269a-cf16-ef5f-d31e-05abcd226401}</Project>
+      <Name>Luban.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Core.csproj">
+      <Project>{770e9beb-b313-3761-faa2-76daf4b34ada}</Project>
+      <Name>Unity.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="MonKey.csproj">
+      <Project>{d29598e2-c44d-51c0-4fe4-c6540b4133c8}</Project>
+      <Name>MonKey</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{9f5687e3-5f72-c8f5-517b-584709b7d5d8}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{bab5d22a-8583-2c7d-88ed-c468ec0e7027}</Project>
+      <Name>UniTask</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
