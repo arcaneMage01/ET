@@ -84,3 +84,9 @@ Publish/
 /Unity/Unity.HotfixView.Codes.csproj
 /Unity/Unity.Model.Codes.csproj
 /Unity/Unity.ModelView.Codes.csproj
+
+/Unity/*.csproj
+/Unity/Assets/Res/FGUI/
+/Unity/Assets/Resources/FGUI/
+/Unity/Assets/Scripts/Codes/Model/Generate/Client/FGUI
+/Unity/UIElementsSchema/
