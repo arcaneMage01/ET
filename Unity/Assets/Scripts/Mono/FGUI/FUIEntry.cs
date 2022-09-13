@@ -18,7 +18,7 @@ namespace ET
 			GRoot.inst.SetContentScaleFactor(1920, 1080, UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);
             
             //设置CustomLoader
-            // UIObjectFactory.SetLoaderExtension(typeof(NKGGLoader));
+            UIObjectFactory.SetLoaderExtension(typeof(NKGGLoader));
         }
 
         public static void Clean()

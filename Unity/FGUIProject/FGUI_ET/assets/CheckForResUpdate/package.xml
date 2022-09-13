@@ -7,5 +7,5 @@
     <image id="rfuv3" name="BarBackGround.PNG" path="/" scale="9grid" scale9grid="40,10,50,20"/>
     <component id="rfuv4" name="CheckForResUpdateBar.xml" path="/"/>
   </resources>
-  <publish name="" path="../../../Unity/Assets/Resources/FGUI/" packageCount="2" genCode="true" codePath="/Users/mac/Documents/proj/unity/ET-Card/Unity/Assets/Scripts/Codes/Model/Generate/Client/FGUI/AutoGenerateCode"/>
+  <publish name="" path="../../../Unity/Assets/Resources/FGUI/" packageCount="2" genCode="true" codePath="/Users/mac/Documents/proj/unity/ET-Card/Unity/Assets/Scripts/Mono/FGUI/AutoGenerate"/>
 </packageDescription>
