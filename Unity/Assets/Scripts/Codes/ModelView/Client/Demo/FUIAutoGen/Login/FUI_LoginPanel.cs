@@ -31,9 +31,9 @@ namespace ET.Client
 
 			c1 = GetControllerAt(0);
 			c2 = GetControllerAt(1);
-			LoginBtn = (GButton)GetChildAt(1);
-			AccountInput = (FUI_InputField1)GetChildAt(2);
-			PasswordInput = (FUI_InputField1)GetChildAt(3);
+			LoginBtn = (GButton)GetChildAt(0);
+			AccountInput = (FUI_InputField1)GetChildAt(1);
+			PasswordInput = (FUI_InputField1)GetChildAt(2);
 		}
 	}
 }

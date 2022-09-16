@@ -20,7 +20,7 @@ namespace ET.Server
 			Unit unit = Server.UnitFactory.Create(scene, player.Id, UnitType.Player);
 			unit.AddComponent<UnitGateComponent, long>(session.InstanceId);
 			
-			StartSceneConfig startSceneConfig = StartSceneConfigCategory.Instance.GetBySceneName(session.DomainZone(), "Map1");
+			StartSceneConfig startSceneConfig = StartSceneConfigCategory.Instance.GetBySceneName(session.DomainZone(), "Main");
 			response.MyId = player.Id;
 			reply();
 			

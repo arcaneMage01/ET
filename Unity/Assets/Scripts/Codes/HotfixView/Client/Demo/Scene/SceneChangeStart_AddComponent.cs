@@ -10,8 +10,6 @@ namespace ET.Client
             Scene currentScene = scene.CurrentScene();
             
             await ResComponent.Instance.LoadSceneAsync(currentScene.Name);
-            
-            currentScene.AddComponent<OperaComponent>();
         }
     }
 }

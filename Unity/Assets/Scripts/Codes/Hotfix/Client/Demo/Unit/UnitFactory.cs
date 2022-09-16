@@ -19,28 +19,8 @@ namespace ET.Client
 		        numericComponent.Set(unitInfo.Ks[i], unitInfo.Vs[i]);
 	        }
 	        
-	        unit.AddComponent<MoveComponent>();
-	        if (unitInfo.MoveInfo != null)
-	        {
-		        if (unitInfo.MoveInfo.X.Count > 0)
-		        {
-			        using (ListComponent<float3> list = ListComponent<float3>.Create())
-			        {
-				        list.Add(unit.Position);
-				        for (int i = 0; i < unitInfo.MoveInfo.X.Count; ++i)
-				        {
-					        list.Add(new float3(unitInfo.MoveInfo.X[i], unitInfo.MoveInfo.Y[i], unitInfo.MoveInfo.Z[i]));
-				        }
-
-				        unit.MoveToAsync(list).Coroutine();
-			        }
-		        }
-	        }
-
 	        unit.AddComponent<ObjectWait>();
 
-	        unit.AddComponent<XunLuoPathComponent>();
-	        
 	        EventSystem.Instance.Publish(unit.DomainScene(), new EventType.AfterUnitCreate() {Unit = unit});
             return unit;
         }
