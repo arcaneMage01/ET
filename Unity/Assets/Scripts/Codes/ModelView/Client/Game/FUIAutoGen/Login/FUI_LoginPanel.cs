@@ -18,6 +18,7 @@ namespace ET.Client
 		public GButton LoginBtn;
 		public FUI_InputField1 AccountInput;
 		public FUI_InputField1 PasswordInput;
+		public GGroup panel_input;
 		public const string URL = "ui://rgfb0w498omm0";
 
 		public static FUI_LoginPanel CreateInstance()
@@ -34,6 +35,7 @@ namespace ET.Client
 			LoginBtn = (GButton)GetChildAt(0);
 			AccountInput = (FUI_InputField1)GetChildAt(1);
 			PasswordInput = (FUI_InputField1)GetChildAt(2);
+			panel_input = (GGroup)GetChildAt(3);
 		}
 	}
 }

@@ -9,7 +9,7 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": false,
-    "codePath": "",
+    "codePath": "../Unity/Codes/ModelView/Game/FUIAutoGen",
     "classNamePrefix": "FUI_",
     "memberNamePrefix": "",
     "packageName": "ET",

@@ -30,6 +30,9 @@ namespace ET.Client
     {
         public static void Awake(this FUIComponent self)
         {
+            //设置分辨率
+            GRoot.inst.SetContentScaleFactor(1920, 1080, UIContentScaler.ScreenMatchMode.MatchHeight);
+            
             self.AllPanelsDic?.Clear();
             self.VisiblePanelsDic?.Clear();
             self.VisiblePanelsQueue?.Clear();
